@@ -1,0 +1,365 @@
+.header {
+  position: relative;
+  height: 58px;
+  background: oldlace; }
+  .header .logo {
+    width: 127px;
+    height: 52px;
+    position: absolute;
+    top: 3px;
+    left: 60px;
+    z-index: 1000; }
+  .header .top {
+    height: 58px;
+    width: 100%;
+    background: #f6f6f6; }
+    .header .top .router {
+      width: 280px;
+      height: 58px;
+      margin: 0 auto; }
+      .header .top .router a {
+        display: block;
+        width: 120px;
+        height: 35px;
+        background: #f6f6f6;
+        color: #505058;
+        float: left;
+        margin-top: 11.5px;
+        border-radius: 17.5px;
+        font-size: 14px;
+        line-height: 35px;
+        text-align: center; }
+      .header .top .router a:nth-child(2) {
+        margin-left: 40px; }
+      .header .top .router a:hover {
+        background: #1a9fda;
+        color: #fff; }
+      .header .top .router .select {
+        background: #1a9fda;
+        color: #fff; }
+    .header .top .log {
+      position: absolute;
+      right: 55px;
+      top: 0;
+      width: 120px;
+      height: 75px; }
+      .header .top .log a {
+        display: block;
+        height: 58px;
+        width: 60px;
+        float: left;
+        font-size: 14px;
+        color: #505058;
+        line-height: 58px;
+        text-align: center; }
+      .header .top .log a:hover {
+        color: #1a9fda; }
+      .header .top .log .select {
+        color: #1a9fda; }
+  .header .bottom {
+    height: 60px;
+    width: 70%;
+    background: rgba(26, 159, 218, 0.7);
+    position: absolute;
+    top: 58px;
+    z-index: 999;
+    left: 50%;
+    margin-left: -35%; }
+    .header .bottom li {
+      float: left;
+      font-size: 16px;
+      color: #def5ff;
+      height: 60px;
+      width: 33.33%;
+      text-align: center;
+      line-height: 60px; }
+    .header .bottom li:hover {
+      background: #19759e;
+      color: #fff; }
+    .header .bottom .select {
+      background: #19759e;
+      color: #fff; }
+
+.biz_Freight_bg {
+  height: 633px;
+  width: 100%;
+  margin-top: 115px;
+  background: #fff; }
+  .biz_Freight_bg .biz_Freight {
+    width: 1000px;
+    height: 633px;
+    margin: 0 auto; }
+    .biz_Freight_bg .biz_Freight .left {
+      width: 439px;
+      float: left; }
+      .biz_Freight_bg .biz_Freight .left li {
+        font-size: 14px;
+        line-height: 20.84px;
+        color: #505058;
+        margin-bottom: 16px;
+        text-align: justify; }
+      .biz_Freight_bg .biz_Freight .left li:nth-child(1) {
+        margin-bottom: 25px; }
+      .biz_Freight_bg .biz_Freight .left li:nth-child(2) {
+        font-size: 24px;
+        line-height: 46.89px;
+        font-weight: 800;
+        color: #19a0da;
+        font-family: ErasITC; }
+      .biz_Freight_bg .biz_Freight .left .space {
+        text-indent: 30px; }
+    .biz_Freight_bg .biz_Freight .right {
+      float: right;
+      height: 532px;
+      width: 535px;
+      background: #e9eaef;
+      margin-top: 88px;
+      margin-right: 10px;
+      position: relative; }
+      .biz_Freight_bg .biz_Freight .right li:nth-child(1) {
+        position: absolute;
+        bottom: 57px;
+        right: 40px; }
+        .biz_Freight_bg .biz_Freight .right li:nth-child(1) img {
+          height: 575px;
+          width: 496px; }
+      .biz_Freight_bg .biz_Freight .right li:nth-child(2) {
+        width: 145px;
+        height: 36px;
+        color: #1a9fda;
+        font-family: Helvetica;
+        font-size: 31.26px;
+        text-align: right;
+        border-bottom: 3px solid #1a9fda;
+        position: absolute;
+        right: -60px;
+        bottom: 54px; }
+
+.biz_ecommercebg {
+  border-top: 1px solid #fff;
+  height: 784px;
+  width: 100%;
+  position: relative; }
+  .biz_ecommercebg .bg {
+    margin-top: 140px;
+    display: flex; }
+    .biz_ecommercebg .bg .bgleft {
+      flex: 1;
+      height: 645px;
+      background: #fff; }
+    .biz_ecommercebg .bg .biz_ecommerce {
+      background: #e9eaef;
+      width: 1200px;
+      height: 645px; }
+      .biz_ecommercebg .bg .biz_ecommerce .title {
+        width: 457px;
+        height: 128px;
+        overflow: hidden;
+        float: right;
+        margin-right: 185px; }
+        .biz_ecommercebg .bg .biz_ecommerce .title div {
+          float: left;
+          font-size: 24px;
+          font-weight: 800;
+          color: #19a0da;
+          font-family: ErasITC;
+          margin-top: 77px; }
+        .biz_ecommercebg .bg .biz_ecommerce .title img {
+          margin-top: 63px;
+          margin-left: 35px; }
+      .biz_ecommercebg .bg .biz_ecommerce ul {
+        float: right;
+        margin-right: 100px;
+        width: 540px; }
+      .biz_ecommercebg .bg .biz_ecommerce li {
+        color: #000;
+        font-size: 14px;
+        line-height: 20.84px;
+        text-align: justify;
+        margin-bottom: 22px; }
+      .biz_ecommercebg .bg .biz_ecommerce .aaa02 {
+        width: 145px;
+        height: 36px;
+        color: #1a9fda;
+        font-family: Helvetica;
+        font-size: 31.26px;
+        text-align: right;
+        border-top: 3px solid #1a9fda;
+        position: absolute;
+        left: -40px;
+        bottom: 54px;
+        transform: rotate(90deg); }
+    .biz_ecommercebg .bg .bgright {
+      flex: 1;
+      height: 645px;
+      background: #e9eaef; }
+  .biz_ecommercebg .left_bg_img {
+    position: absolute;
+    width: 43%;
+    top: 88px;
+    left: 0; }
+
+.biz_integration_bg {
+  width: 100%;
+  height: 837px;
+  background: #fff; }
+  .biz_integration_bg .biz_integration {
+    width: 1000px;
+    height: 837px;
+    margin: 0 auto;
+    border-top: 1px solid #fff; }
+    .biz_integration_bg .biz_integration .left {
+      float: left; }
+      .biz_integration_bg .biz_integration .left .title {
+        width: 457px;
+        height: 128px;
+        overflow: hidden; }
+        .biz_integration_bg .biz_integration .left .title div {
+          float: left;
+          font-size: 24px;
+          font-weight: 800;
+          color: #19a0da;
+          font-family: ErasITC;
+          margin-top: 77px; }
+        .biz_integration_bg .biz_integration .left .title img {
+          margin-top: 63px;
+          margin-left: 75px; }
+      .biz_integration_bg .biz_integration .left .text {
+        font-size: 14px;
+        text-align: justify;
+        line-height: 20.84px;
+        color: #505058;
+        width: 415px;
+        margin-bottom: 66px; }
+      .biz_integration_bg .biz_integration .left .integrated_logo {
+        width: 418px;
+        height: 355px; }
+    .biz_integration_bg .biz_integration .right {
+      float: right;
+      background: #d5e2e4;
+      margin-top: 95px;
+      height: 467px;
+      width: 512px;
+      position: relative; }
+      .biz_integration_bg .biz_integration .right img {
+        height: 364px;
+        width: 497px;
+        position: absolute;
+        top: 50px;
+        right: 0; }
+      .biz_integration_bg .biz_integration .right div {
+        width: 145px;
+        height: 36px;
+        color: #1a9fda;
+        font-family: Helvetica;
+        font-size: 31.26px;
+        text-align: right;
+        border-bottom: 3px solid #1a9fda;
+        position: absolute;
+        right: -60px;
+        bottom: -30px; }
+
+.f_lbg {
+  width: 100%;
+  height: 400px;
+  background: #f8f8f8; }
+  .f_lbg .f_l {
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .f_lbg .f_l .title {
+      text-align: center;
+      font-family: Helvetica;
+      font-size: 18px;
+      margin-top: 40px; }
+    .f_lbg .f_l .switch {
+      width: 78px;
+      height: 3px;
+      margin: 0 auto;
+      margin-top: 15px; }
+      .f_lbg .f_l .switch div {
+        width: 18px;
+        height: 3px;
+        background: #c1c1c1;
+        display: inline-block; }
+      .f_lbg .f_l .switch div:nth-child(2) {
+        margin: 0 2px; }
+      .f_lbg .f_l .switch .select {
+        width: 30px;
+        background: #000; }
+    .f_lbg .f_l .img {
+      width: 1000px;
+      margin-top: 45px; }
+      .f_lbg .f_l .img img {
+        width: 157px;
+        height: 57px; }
+      .f_lbg .f_l .img .margin {
+        margin-right: 8px; }
+      .f_lbg .f_l .img .bottom {
+        margin-bottom: 9px; }
+
+.footerbg {
+  background: #333333;
+  width: 100%;
+  height: 194px; }
+  .footerbg .footer {
+    width: 1000px;
+    height: 194px;
+    margin: 0 auto; }
+    .footerbg .footer .float {
+      width: 130px;
+      margin-top: 28px;
+      float: left; }
+      .footerbg .footer .float a {
+        display: block;
+        font-size: 12px;
+        color: #dbe2e4;
+        line-height: 26px; }
+    .footerbg .footer .float li:nth-child(1) a {
+      color: #8e9399;
+      margin-bottom: 22px; }
+    .footerbg .footer .legal {
+      width: 210px; }
+    .footerbg .footer .newsletter {
+      width: 165px;
+      margin-left: 10px; }
+      .footerbg .footer .newsletter .con {
+        line-height: 20px; }
+      .footerbg .footer .newsletter .email {
+        width: 165px;
+        height: 39px;
+        background: url(../img/email_03.png) no-repeat;
+        border: none;
+        margin-top: 10px; }
+    .footerbg .footer .appleandroid {
+      width: 140px;
+      float: left;
+      margin-left: 50px; }
+      .footerbg .footer .appleandroid li {
+        float: left;
+        margin-bottom: 15px; }
+      .footerbg .footer .appleandroid li:nth-child(2), .footerbg .footer .appleandroid li:nth-child(3) {
+        width: 140px;
+        height: 38px; }
+      .footerbg .footer .appleandroid li:nth-child(3) {
+        margin-bottom: 0px; }
+      .footerbg .footer .appleandroid a {
+        float: left;
+        display: block;
+        font-size: 13.7px;
+        color: #dbe2e4;
+        line-height: 33px; }
+      .footerbg .footer .appleandroid img {
+        float: left;
+        margin-right: 20px; }
+    .footerbg .footer .conncet {
+      margin-left: 30px; }
+      .footerbg .footer .conncet img {
+        margin-right: 6px; }
+    .footerbg .footer .orangelogo {
+      width: 83px;
+      height: 56px;
+      margin-top: 28px; }
+
+/*# sourceMappingURL=business.css.map */
